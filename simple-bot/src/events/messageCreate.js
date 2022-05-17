@@ -28,9 +28,9 @@ module.exports = {
                     image: {
                         url: "https://cdn.discordapp.com/attachments/976195379026604032/976230876662857788/secure-shield.png"
                     },
-                    title: "Embed title",
+                    title: args.join(' '),
                     description: args.join(' '),
-                    color: "#4fd6ff",
+                    color: "#2c2456",
                  })
                 message.channel.send({ embeds: [embed] })
         }
